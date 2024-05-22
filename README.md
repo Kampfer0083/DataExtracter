@@ -69,6 +69,14 @@ This function extracts and aggregates VT data for combined device sizes.
   - `physical_property`: The physical property to filter the data.
   - `outlier_threshold`: Threshold to exclude outliers.
 
+- **Device Sizes:**
+  - Here are the default size sets in this program. Modify here for different data sets. - 
+  - device_sizes = [(500, 700), (200, 700), (150, 700), (100, 700), (60, 700)]
+      combined_sizes_500 = [(500, 350), (500, 700)]
+      combined_sizes_200 = [(200, 350), (200, 700)]
+      combined_sizes_150 = [(150, 350), (150, 700)]
+
+
 - **Returns:**
   - `all_dies_combined_data`: DataFrame containing the aggregated data for all dies.
 
